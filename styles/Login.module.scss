@@ -1,0 +1,33 @@
+.login_form {
+  height: 100vh;
+}
+
+.login_header {
+  width: 65%;
+}
+
+.login_form_desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    width: fit-content;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.login_form_submit {
+  * {
+    margin-bottom: 1em;
+    width: 100%;
+  }
+}
+
+.login_form_img {
+  display: flex;
+  margin-top: 1em;
+  gap: 1em;
+}
